@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 18.0.1)
+[debug] Load.defaultLoad until apply took 103.3842ms
+[debug]           Load.loadUnit: plugins took 116.5969ms
+[debug]           Load.loadUnit: defsScala took 0.2996ms
+[debug] [Loading] Scanning directory D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.5012 ms
+[debug]               Load.resolveProject(tutorial8-build) took 48.8621ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tutorial8-build, base: D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8\project, plugins: List(<none>))) took 120.7937ms
+[debug] [Loading] Done in D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8\project, returning: (tutorial8-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 165.3314ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.2223ms
+[debug]         Load.loadUnit(file:/D:/2%20nd%20year/1%20sem/SCS2204%20Functional%20Programming/scala/tutorial8/project/, ...) took 293.5407ms
+[debug]       Load.apply: load took 455.861ms
+[debug]       Load.apply: resolveProjects took 4.2981ms
+[debug]       Load.apply: finalTransforms took 44.9393ms
+[debug]       Load.apply: config.delegates took 4.6952ms
+[debug]       Load.apply: Def.make(settings)... took 262.0983ms
+[debug]       Load.apply: structureIndex took 65.9131ms
+[debug]       Load.apply: mkStreams took 1.2482ms
+[info] loading project definition from D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2918.845ms
+[debug]     Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8
+[debug]       Load.loadUnit: mkEval took 2.8148ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8144 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.626ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8, plugins: List(<none>))) took 5.4427ms
+[debug] [Loading] Done in D:\2 nd year\1 sem\SCS2204 Functional Programming\scala\tutorial8, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1741.2498ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.9546ms
+[debug]   Load.loadUnit(file:/D:/2%20nd%20year/1%20sem/SCS2204%20Functional%20Programming/scala/tutorial8/, ...) took 4670.5611ms
+[debug] Load.apply: load took 4692.082ms
+[debug] Load.apply: resolveProjects took 0.1054ms
+[debug] Load.apply: finalTransforms took 16.6134ms
+[debug] Load.apply: config.delegates took 0.3509ms
+[debug] Load.apply: Def.make(settings)... took 65.0998ms
+[debug] Load.apply: structureIndex took 22.5393ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to Tutorial_8 (in build file:/D:/2%20nd%20year/1%20sem/SCS2204%20Functional%20Programming/scala/tutorial8/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-859a1e5d98bc49fd4ada
+[debug] Writing bsp connection file
+[info] started sbt server
